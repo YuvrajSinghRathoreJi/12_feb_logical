@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='p')
+	{
+		int a,b;
+		printf("enter the value of a and b :");
+		scanf("%d %d",&a,&b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		printf("swaping value of a  %d\n",a);
+		printf("swaping value of b  %d",b);
+		}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+

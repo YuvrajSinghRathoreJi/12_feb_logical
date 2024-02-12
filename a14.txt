@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='w')
+	{
+		int a,b,c;
+		printf("enter the value of a,b and c:");
+		scanf("%d %d %d",&a,&b,&c);
+		c=a;
+		a=b;
+		b=c;
+		printf("swaping value of a  %d\n",a);
+		printf("swaping value of b  %d",b);
+		}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}

@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='a')
+	{
+		printf("cat");
+	}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+
